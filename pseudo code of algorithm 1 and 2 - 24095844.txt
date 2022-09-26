@@ -1,0 +1,50 @@
+
+Algorithm 1 and 2
+****************
+
+Menu
+*************************
+1. Start
+2. create a list and read the file
+3. Diplay
+  	Enter 1 to display student information and assignment manrks
+  	Enter 2 to display total marks of all students assignment
+  	Enter 3 to display the list of students with the total marks less than a certain threshhold
+  	Enter 4 to display the 10 highest and the 10 lowest total marks
+  	Enter 0 to exit the menu
+
+4. case 1:
+	4.1 Display Student details and marks
+	4.2 for (student list)
+		call the students marks display method
+	4.3 end for
+
+5. case 2:
+	5.1 Display Student details, marks and total marks
+	5.2 for (student list)
+		call the students marks display method with total
+			calculate total marks and return
+	5.3 end for
+
+6. case 3:
+	6.1 Display Student details, marks and total marks less that a certain threshhold
+	6.2 create variable threshold
+	6.3 get the threshold value from user
+	6.4 for (student list)
+		call the students marks display method with total less than a certain threshold method and pass the threshold variable
+		return the list
+	6.5 end for
+		 
+7. case 4: 
+	7.1 Display Student name and marks of the highest 10 and lowest 10
+	7.2 for (student list)
+	7.3 call highest marks method
+		bubble sort the students mark array
+	7.4 call lowest marks method
+		bubble sort the students mark array
+
+8. case 5:
+	8.1 break
+8. End 
+
+
